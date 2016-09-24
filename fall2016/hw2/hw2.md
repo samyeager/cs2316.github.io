@@ -147,6 +147,7 @@ Once you have a valid file name, read the file contents into a string. Here's a 
 ```Python
 infile = open(file_name, 'r')
 text = infile.read()
+infile.close()
 ```
 
 Once you read the contents of the file into a `str`, use the functions you created above to:
